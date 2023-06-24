@@ -1,0 +1,23 @@
+//@version=5  
+strategy("Private MA Cross Strategy", default_qty_value=100000)  
+shortLen = 9  
+longLen = 21  
+startDate = timestamp("27 Mar 2020 00:00")  
+endDate = timestamp("27 Mar 2021 23:59")  
+   
+shortMA = ta.sma(close, shortLen)  
+longMA = ta.sma(close, longLen)  
+plot(shortMA, color = #9e2f24)  
+plot(longMA, color = #228227)  
+   
+inDateRange = (time >= startDate) and (time < endDate)  
+  
+if (ta.crossover(shortMA, longMA) and inDateRange)  
+    strategy.entry("long", strategy.long)   
+// if (ta.crossunder(shortMA, longMA) and inDateRange)  
+    // strategy.entry("short", strategy.short)  
+if (strategy.position_size > 0 and ta.crossunder(shortMA, longMA))  
+    strategy.exit(id="exit long", stop=close)  
+   
+isCross = ta.cross(shortMA, longMA)  
+plot(isCross ? shortMA : na, color=#144ce7, style = plot.style_cross, linewidth = 6) 

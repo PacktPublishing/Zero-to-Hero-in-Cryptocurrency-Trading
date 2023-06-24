@@ -1,0 +1,11 @@
+//@version=5 
+indicator("Private MA Cross Indicator") 
+shortLen = 9 
+longLen = 21 
+shortMA = ta.sma(close, shortLen) 
+longMA = ta.sma(close, longLen) 
+plot(shortMA, color = #9e2f24) 
+plot(longMA, color = #228227) 
+isCross = ta.cross(shortMA, longMA) 
+plot(isCross ? shortMA : na, color=#144ce7, style = plot.style_cross, linewidth = 6)
+alertcondition(isCross, title="Enter trade") 
