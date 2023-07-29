@@ -86,6 +86,8 @@ This document contains a collection of links mentioned in the book, grouped by c
 - [EmperorBTC's Twitter handle](https://twitter.com/EmperorBTC)
 **TODO add indicators template link**
 - [What R means in trading in terms of risk and profit](https://tradethatswing.com/what-r-means-in-trading-in-terms-of-risk-and-profit/)
+- [The Sharpe, Sortino and Calmar ratios](https://towardsdatascience.com/sharpe-ratio-sorino-ratio-and-calmar-ratio-252b0cddc328)
+- [Alpha and Beta in trading](https://www.investopedia.com/ask/answers/102714/whats-difference-between-alpha-and-beta.asp)
 
 ## 8. Automated trading
 
