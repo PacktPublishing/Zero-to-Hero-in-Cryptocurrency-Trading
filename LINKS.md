@@ -113,6 +113,7 @@ This document contains a collection of links mentioned in the book, grouped by c
 - [Pandas - data analysis and manipulation built on top of Python](https://pandas.pydata.org/)
 - [pandas-ta - a Python library with over 130 indicators](https://github.com/twopirllc/pandas-ta)
 - [Hummingbot, an alternative to Freqtrade](https://github.com/hummingbot/hummingbot/tree/development)
+- [NautilusTrader, another alternative to Freqtrade](https://github.com/nautechsystems/nautilus_trader)
 - [Cryptocurrency algorithmic trading with Python and Binance](https://www.udemy.com/course/cryptocurrency-algorithmic-trading-with-python-and-binance)
 - [A list of Freqtrade strategies](https://github.com/freqtrade/freqtrade-strategies/tree/main/user_data/strategies)
 - [Backtesting traps when using Freqtrade](https://brookmiles.github.io/freqtrade-stuff/2021/04/12/backtesting-traps)
