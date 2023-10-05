@@ -52,7 +52,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 ## Get to Know the Author
 **Bogdan Vaida** is a seasoned private investor who has backed over 300 crypto start-ups. He is a founding member of Iron Capital, a VC company incorporated in Dubai. Eight years ago, he founded his own company and has managed teams at various stages of development. He is an advisor for several blockchain projects, including Gravvity, Blockchain Valley Virtual, Gentlemen Capital, Bountie, MetaVill, and Umay. For fun and profit, he trades daily, having his own trading course and programming his own trading indicators and strategies.
 
-## Other books by the authors
+## Other books by the author
 [Working with Linux - Quick Hacks for the Command Line](https://www.packtpub.com/product/working-with-linux-quick-hacks-for-the-command-line/9781787129184?utm_source=github&utm_medium=repository&utm_campaign=9781787129184)
 
 
